@@ -10,7 +10,7 @@ function App() {
     <>
       <Cabecalho />
       <Hero />
-      <ListaVagas />
+
       <Vaga
         titulo={'Desenvolvedor Web'}
         localizacao={'Porto Alegre'}
@@ -20,6 +20,7 @@ function App() {
         salarioMax={50000}
         requisitos={['Experiência com React', 'Conhecimento em HTML/CSS']}
       />
+      <ListaVagas />
     </>
   )
 }
