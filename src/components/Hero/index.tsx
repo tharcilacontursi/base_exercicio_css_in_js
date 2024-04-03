@@ -1,4 +1,4 @@
-import styles, { Form, Div, HeroTitle } from './Hero.module.tsx'
+import { Form, Div, HeroTitle } from './Hero.module'
 
 const Hero = () => (
   <Form>

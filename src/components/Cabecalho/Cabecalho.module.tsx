@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Header = styled.header`
   background-color: var(--cor-secundaria);
@@ -6,4 +6,3 @@ export const Header = styled.header`
   text-align: center;
   padding: 24px 0;
 `
-

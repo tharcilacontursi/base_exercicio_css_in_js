@@ -1,6 +1,5 @@
 import { FormEvent, useState } from 'react'
-import styled from 'styled-components';
-import { Form , BtnPesquisar , Campo } from './FormVagas.module.tsx';
+import { Form, BtnPesquisar, Campo } from './FormVagas.module'
 
 type Props = {
   aoPesquisar: (termo: string) => void
@@ -21,10 +20,8 @@ const FormVagas = ({ aoPesquisar }: Props) => {
         onChange={(e) => setTermo(e.target.value)}
         type="search"
       />
-      <BtnPesquisar type="submit">
-        Pesquisar
-      </BtnPesquisar>
+      <BtnPesquisar type="submit">Pesquisar</BtnPesquisar>
     </Form>
-  );
+  )
 }
 export default FormVagas
